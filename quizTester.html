@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON Image Grid</title>
+	<style>
+		table, th, td {
+		  border: 1px solid black;
+		}
+		img {
+		  width: 25%;
+		}
+	</style>
+</head>
+<body>
+	<input type="file" id="jsonFile">
+	<table id="imageGrid">
+		<thead>
+			<tr>
+				<th></th>
+				<th id="colHeader1"></th>
+				<th id="colHeader2"></th>
+				<th id="colHeader3"></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th id="rowHeader1"></th>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th id="rowHeader2"></th>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th id="rowHeader3"></th>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<script src="script.js"></script>
+</body>
+</html>
